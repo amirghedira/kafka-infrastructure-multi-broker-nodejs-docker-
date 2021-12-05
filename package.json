@@ -1,0 +1,16 @@
+{
+  "name": "kafka-infrastructure-nodejs-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:consumer": "node ./server-consumer/server",
+    "start:producer": "node ./server-producer/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+  }
+}
